@@ -16,61 +16,17 @@ seq:
     type: u4
   - id: unknown_3
     type: u4
-  - id: sequence_1
+  - id: sequence
     type: str
     size: 40
     encoding: utf-8
-  - id: sequence_2
+    repeat: expr
+    repeat-expr: 7
+  - id: effect
     type: str
     size: 40
     encoding: utf-8
-  - id: sequence_3
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: sequence_4
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: sequence_5
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: sequence_6
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: sequence_7
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_1
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_2
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_3
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_4
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_5
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_6
-    type: str
-    size: 40
-    encoding: utf-8
-  - id: effect_7
-    type: str
-    size: 40
-    encoding: utf-8
+    repeat: expr
+    repeat-expr: 7
   - id: unknown_4
     size: 12
