@@ -5,7 +5,7 @@ meta:
     - general/common
 seq:
   - id: common
-    type: iff_common_version_11
+    type: common_version_11
   - id: unknown_1
     size: 7
   - id: model

@@ -1,5 +1,5 @@
 meta:
-  id: iff_common_version_11
+  id: common_version_11
   endian: le
   imports:
     - ../../../general/systemtime
